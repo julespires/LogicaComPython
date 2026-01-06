@@ -1,9 +1,18 @@
 '''
-Faça um programa que imprima a mensgaem "Olá, Mundo!" para o usuário
+Faça um programa que receba quatro números inteiros, calcule e mostre a soma desses números.
 Autor:Jules do Nascimento Pires
 Ex:001
-Data:01/01/2026
+Data:06/01/2026
 '''
 
-# Mensagem
-print('Olá, Mundo!')
+# Entrada dos valores
+num1 = int(input('Primeiro valor:'))
+num2 = int(input('Segundo valor:'))
+num3 = int(input('Terçeiro valor:'))
+num4 = int(input('Quarto valor:'))
+
+# Calcula a soma
+soma = num1 + num2 + num3 + num4
+
+# Mostra o resultado
+print('Soma dos valores:{}'.format(soma))
