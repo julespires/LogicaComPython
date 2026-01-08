@@ -1,17 +1,14 @@
 '''
-Faça um programa que receba três notas, calcule e mostre a média aritmética.
+Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas vindas.
 Autor:Jules do Nascimento Pires
 Ex:002
 Data:06/01/2026
 '''
 
-# Entrada das notas
-nota1 = float(input('Primeira nota:'))
-nota2 = float(input('Segunda nota:'))
-nota3 = float(input('Terçeira nota:'))
+import os
+os.system('cls')
 
-# Calcula a média aritimética
-media = (nota1 + nota2 + nota3) / 3
+# Entrada do nome
+nome = str(input('Qual é o seu nome'))
 
-# Mostra o resultado
-print('Média aritimética das notas:{:.2f}'.format(media))
+print('Olá {}, é um prazer te conhecer!'.format(nome))
