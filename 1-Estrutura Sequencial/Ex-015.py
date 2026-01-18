@@ -1,5 +1,5 @@
 '''
-Faça um programa que leia um valo rem metros e o exiba convertido em centímetros e milímetros
+Faça um programa que leia um valor rem metros e o exiba convertido em centímetros e milímetros
 Autor:Jules do Nascimento Pires
 Ex:015
 Data:14/01/2025
