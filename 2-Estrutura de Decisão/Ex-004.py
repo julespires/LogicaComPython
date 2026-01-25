@@ -11,4 +11,4 @@ num3 = int(input('Terçeiro número:'))
 
 maior = max (num1, num2, num3)
 
-print('O maior valor é:{}'.format(maior))
+print('O maior valor é o número:{}'.format(maior))
