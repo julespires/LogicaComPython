@@ -5,6 +5,7 @@ Ex:009
 Data:23/01/2026
 '''
 
+# Biblioteca de sistema
 import os
 os.system('cls')
 
